@@ -1,0 +1,15 @@
+Git Basics
+
+Git is a version control system, which works like saving your progress when playing video games (e.g., GTA Vice City, GTA San Andreas, etc.).
+
+Imagine you have a new project folder that you want to share with others for collaboration. To do this, you first need to enable version control for that folder, similar to how you'd insert a memory card in a game to save your progress. In Git, you do this by using the `git init` command, which turns your folder into a Git repository (i.e., it enables version control).
+
+Once version control is set up, the `git add .` command tracks all the changes you make to the files in the folder. This is like taking snapshots of your progress in the game.
+
+The `git commit` command takes those tracked changes and saves them to the current branch (or snapshot) of the project. This is like saving your progress at a certain level of the game.
+
+Branches in Git are like separate game files where you can play from different levels. For example, if you’re working on a feature but don’t want to affect the main progress, you can create a branch (like a copy of your main progress). Your friend can then work on a different branch, completing their own tasks or levels.
+
+If your friend finishes their task and wants to share their progress, they can submit a Pull Request (PR), similar to saying, “I’ve finished my part of the game; do you want to include it in your game?” As the project owner, you can review the changes and decide whether to merge them into your branch (main progress).
+
+This helps in collaboration without overwriting each other’s work, and allows multiple people to work on the same project without interfering with each other’s progress.
